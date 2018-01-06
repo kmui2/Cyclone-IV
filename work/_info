@@ -1,0 +1,501 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dI:/ECE551/project7
+vA2D_intf
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 >SlHh7c:16jL_]hfOL=0@1
+ICoY>l7gZddP[mHom1Oh^z3
+!s105 A2D_intf_sv_unit
+S1
+Z2 d/userspace/k/kmui2/ECE551/project8
+Z3 w1513217238
+8/userspace/k/kmui2/ECE551/project8/A2D_intf.sv
+F/userspace/k/kmui2/ECE551/project8/A2D_intf.sv
+L0 1
+Z4 OL;L;10.6a;65
+Z5 !s108 1513225987.000000
+!s107 /userspace/k/kmui2/ECE551/project8/A2D_intf.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/k/kmui2/ECE551/project8/A2D_intf.sv|
+!i113 0
+Z6 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 tCvgOpt 0
+n@a2@d_intf
+vADC128S
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 0damBXUWz_8:HCk]^=0]c2
+IlXBPaHlci6Gg7MG120RT:2
+!s105 ADC128S_sv_unit
+S1
+R2
+R3
+8/userspace/k/kmui2/ECE551/project8/ADC128S.sv
+F/userspace/k/kmui2/ECE551/project8/ADC128S.sv
+L0 1
+R4
+R5
+!s107 /userspace/k/kmui2/ECE551/project8/ADC128S.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/k/kmui2/ECE551/project8/ADC128S.sv|
+!i113 0
+R6
+R7
+n@a@d@c128@s
+vcmd_cfg
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 JZ@d8_n;AkHkkaQFBCh4I2
+IB5dUedcd3m9O99RXf5`9P0
+!s105 cmd_cfg_sv_unit
+S1
+R2
+w1513220279
+8/userspace/k/kmui2/ECE551/project8/cmd_cfg.sv
+F/userspace/k/kmui2/ECE551/project8/cmd_cfg.sv
+L0 1
+R4
+R5
+!s107 /userspace/k/kmui2/ECE551/project8/cmd_cfg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/k/kmui2/ECE551/project8/cmd_cfg.sv|
+!i113 0
+R6
+R7
+vcmd_cfg_tb
+R0
+!s110 1513225988
+!i10b 1
+!s100 01Q:^CQ38SQ:eZ?IV_K<N1
+IhE27FoS3GF:o]c[geai6A0
+R1
+!s105 cmd_cfg_tb_sv_unit
+S1
+R2
+R3
+8/userspace/k/kmui2/ECE551/project8/cmd_cfg_tb.sv
+F/userspace/k/kmui2/ECE551/project8/cmd_cfg_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z8 !s108 1513225988.000000
+!s107 /userspace/k/kmui2/ECE551/project8/cmd_cfg_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/k/kmui2/ECE551/project8/cmd_cfg_tb.sv|
+!i113 0
+R6
+R7
+vCommMaster
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Cbb^>]a12nhg`OKQ;4=md3
+IX91R1YNUIeSAfCQGYAmB60
+!s105 CommMaster_sv_unit
+S1
+R2
+R3
+8/userspace/k/kmui2/ECE551/project8/CommMaster.sv
+F/userspace/k/kmui2/ECE551/project8/CommMaster.sv
+L0 1
+R4
+R8
+!s107 /userspace/k/kmui2/ECE551/project8/CommMaster.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/k/kmui2/ECE551/project8/CommMaster.sv|
+!i113 0
+R6
+R7
+n@comm@master
+vCycloneIV
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 5ZBL4X29l@^:IClV3OcGX0
+If3zO_gJD@fgSfZKn<gHDJ2
+!s105 CycloneIV_sv_unit
+S1
+R2
+w1513225463
+8/userspace/k/kmui2/ECE551/project8/CycloneIV.sv
+F/userspace/k/kmui2/ECE551/project8/CycloneIV.sv
+L0 1
+R4
+R8
+!s107 /userspace/k/kmui2/ECE551/project8/CycloneIV.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/k/kmui2/ECE551/project8/CycloneIV.sv|
+!i113 0
+R6
+R7
+n@cyclone@i@v
+vESC_interface
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Y3k;5NOoZ<K:1z3BSQ;QT3
+IZ0?`djcW72OPdmVEf]]7>3
+!s105 ESC_interface_sv_unit
+S1
+R2
+w1513208045
+8/userspace/k/kmui2/ECE551/project8/ESC_interface.sv
+F/userspace/k/kmui2/ECE551/project8/ESC_interface.sv
+L0 1
+R4
+Z9 !s108 1513225989.000000
+!s107 /userspace/k/kmui2/ECE551/project8/ESC_interface.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/k/kmui2/ECE551/project8/ESC_interface.sv|
+!i113 0
+R6
+R7
+n@e@s@c_interface
+vESCs
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Wa2K@h6=2l3OkQfV>gR^52
+IH?IOmo<[EObVadZX^6_jb0
+!s105 ESCs_sv_unit
+S1
+R2
+R3
+8/userspace/k/kmui2/ECE551/project8/ESCs.sv
+F/userspace/k/kmui2/ECE551/project8/ESCs.sv
+L0 1
+R4
+R9
+!s107 /userspace/k/kmui2/ECE551/project8/ESCs.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/k/kmui2/ECE551/project8/ESCs.sv|
+!i113 0
+R6
+R7
+n@e@s@cs
+vflght_cntrl
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 H^^KeYTW@BCKkX>@_EDgX1
+I6In?4l:Ig=T_1WF]=V5C]1
+!s105 flght_cntrl_sv_unit
+S1
+R2
+w1513209239
+8/userspace/k/kmui2/ECE551/project8/flght_cntrl.sv
+F/userspace/k/kmui2/ECE551/project8/flght_cntrl.sv
+L0 1
+R4
+R9
+!s107 /userspace/k/kmui2/ECE551/project8/flght_cntrl.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/k/kmui2/ECE551/project8/flght_cntrl.sv|
+!i113 0
+R6
+R7
+vflght_cntrl_chk_tb
+R0
+!s110 1513225990
+!i10b 1
+!s100 O`Y1iMD?Y>GAPNURo3lnb0
+Ieo5X=kbDTkT1<aJlo0hjZ1
+R1
+!s105 flght_cntr_chk_tb_sv_unit
+S1
+R2
+w1509463758
+8/userspace/k/kmui2/ECE551/exercise14/flght_cntr_chk_tb.sv
+F/userspace/k/kmui2/ECE551/exercise14/flght_cntr_chk_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z10 !s108 1513225990.000000
+!s107 /userspace/k/kmui2/ECE551/exercise14/flght_cntr_chk_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/k/kmui2/ECE551/exercise14/flght_cntr_chk_tb.sv|
+!i113 0
+R6
+R7
+vinert_intf
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 l3V3=A<a5giH[:HIee=zJ1
+IC3HGQl[4;Wbj56KUh8N^Y1
+!s105 inert_intf_sv_unit
+S1
+R2
+R3
+8/userspace/k/kmui2/ECE551/project8/inert_intf.sv
+F/userspace/k/kmui2/ECE551/project8/inert_intf.sv
+L0 1
+R4
+R9
+!s107 /userspace/k/kmui2/ECE551/project8/inert_intf.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/k/kmui2/ECE551/project8/inert_intf.sv|
+!i113 0
+R6
+R7
+vinertial_integrator
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 SDZFWkd237bLkOa3C395J0
+I6]TUZ4_gQb6cH9PdR^ldY2
+!s105 inertial_integrator_sv_unit
+S1
+R2
+R3
+8/userspace/k/kmui2/ECE551/project8/inertial_integrator.sv
+F/userspace/k/kmui2/ECE551/project8/inertial_integrator.sv
+L0 1
+R4
+R9
+!s107 /userspace/k/kmui2/ECE551/project8/inertial_integrator.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/k/kmui2/ECE551/project8/inertial_integrator.sv|
+!i113 0
+R6
+R7
+vQuadCopter
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 LaVn^R3:E?NOL[d5>^Xi:1
+I]f9]7Q3k06IEdM0cNYQUF1
+R2
+w1513225112
+8/userspace/k/kmui2/ECE551/project8/QuadCopter.v
+F/userspace/k/kmui2/ECE551/project8/QuadCopter.v
+L0 1
+R4
+R9
+!s107 /userspace/k/kmui2/ECE551/project8/QuadCopter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/k/kmui2/ECE551/project8/QuadCopter.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R7
+n@quad@copter
+vQuadCopter_tb
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 K;aB;PlYml1d2oVK>9dGM1
+IWTUZLi3G?z8V?5CUS>AX?2
+!s105 QuadCopter_tb_sv_unit
+S1
+R2
+w1513225985
+8/userspace/k/kmui2/ECE551/project8/QuadCopter_tb.sv
+F/userspace/k/kmui2/ECE551/project8/QuadCopter_tb.sv
+Ftb_tasks.v
+L0 1
+R4
+R9
+!s107 tb_tasks.v|/userspace/k/kmui2/ECE551/project8/QuadCopter_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/k/kmui2/ECE551/project8/QuadCopter_tb.sv|
+!i113 0
+R6
+R7
+n@quad@copter_tb
+vrst_synch
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 oMdUAPlKh4;3X1JmA?HGZ0
+IQ^Njc<XoZGc:XFINL30_H2
+!s105 rst_synch_sv_unit
+S1
+R2
+R3
+8/userspace/k/kmui2/ECE551/project8/rst_synch.sv
+F/userspace/k/kmui2/ECE551/project8/rst_synch.sv
+L0 1
+R4
+R9
+!s107 /userspace/k/kmui2/ECE551/project8/rst_synch.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/k/kmui2/ECE551/project8/rst_synch.sv|
+!i113 0
+R6
+R7
+vSPI_ADC128S
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ;E62=i88@ghW83DU@9;CK1
+If62ZZzCTz^ADbIk?CAnUX3
+!s105 SPI_ADC128S_sv_unit
+S1
+R2
+R3
+8/userspace/k/kmui2/ECE551/project8/SPI_ADC128S.sv
+F/userspace/k/kmui2/ECE551/project8/SPI_ADC128S.sv
+L0 1
+R4
+R10
+!s107 /userspace/k/kmui2/ECE551/project8/SPI_ADC128S.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/k/kmui2/ECE551/project8/SPI_ADC128S.sv|
+!i113 0
+R6
+R7
+n@s@p@i_@a@d@c128@s
+vSPI_mstr16
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 :N=5KO>R@zWdDEC0SKA2Z2
+IWRX:=SJT6Tzgh=JS3>PFW0
+!s105 SPI_mstr16_sv_unit
+S1
+R2
+R3
+8/userspace/k/kmui2/ECE551/project8/SPI_mstr16.sv
+F/userspace/k/kmui2/ECE551/project8/SPI_mstr16.sv
+L0 5
+R4
+R10
+!s107 /userspace/k/kmui2/ECE551/project8/SPI_mstr16.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/k/kmui2/ECE551/project8/SPI_mstr16.sv|
+!i113 0
+R6
+R7
+n@s@p@i_mstr16
+vUART
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 4@]]aR7i@P]__K29=2K<;3
+I[HzafneO1C>VgzQdQQimg3
+R2
+R3
+8/userspace/k/kmui2/ECE551/project8/UART.v
+F/userspace/k/kmui2/ECE551/project8/UART.v
+L0 1
+R4
+R10
+!s107 /userspace/k/kmui2/ECE551/project8/UART.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/k/kmui2/ECE551/project8/UART.v|
+!i113 0
+R11
+R7
+n@u@a@r@t
+vUART_rcv
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ef8C@z5ghUzITC;1LR7>52
+IE1MK9m6:22l>[7H4Jh>MD3
+!s105 UART_rcv_sv_unit
+S1
+R2
+R3
+8/userspace/k/kmui2/ECE551/project8/UART_rcv.sv
+F/userspace/k/kmui2/ECE551/project8/UART_rcv.sv
+L0 1
+R4
+R10
+!s107 /userspace/k/kmui2/ECE551/project8/UART_rcv.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/k/kmui2/ECE551/project8/UART_rcv.sv|
+!i113 0
+R6
+R7
+n@u@a@r@t_rcv
+vUART_tx
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 OKXUO<?9:f=G`OAPBc]dP0
+I4aeOkCFj2jOZ<70JKY^Le0
+R2
+R3
+8/userspace/k/kmui2/ECE551/project8/UART_tx.v
+F/userspace/k/kmui2/ECE551/project8/UART_tx.v
+L0 1
+R4
+R10
+!s107 /userspace/k/kmui2/ECE551/project8/UART_tx.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/k/kmui2/ECE551/project8/UART_tx.v|
+!i113 0
+R11
+R7
+n@u@a@r@t_tx
+vUART_wrapper
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ko;RoYoMmJ<LICW>S9PgL3
+Iam_X@dOS7F[]l6]FT=Q_20
+!s105 UART_wrapper_sv_unit
+S1
+R2
+R3
+8/userspace/k/kmui2/ECE551/project8/UART_wrapper.sv
+F/userspace/k/kmui2/ECE551/project8/UART_wrapper.sv
+L0 1
+R4
+R10
+!s107 /userspace/k/kmui2/ECE551/project8/UART_wrapper.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/k/kmui2/ECE551/project8/UART_wrapper.sv|
+!i113 0
+R6
+R7
+n@u@a@r@t_wrapper

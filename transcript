@@ -1,0 +1,130 @@
+# //  Questa Sim-64
+# //  Version 10.6a linux_x86_64 Mar 16 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project project2
+# reading /cae/apps/data/mentor-2017/questasim/v10.6_1/linux_x86_64/../modelsim.ini
+# Loading project project8
+# Compile of A2D_intf.sv was successful.
+# Compile of ADC128S.sv was successful.
+# Compile of cmd_cfg.sv was successful.
+# Compile of cmd_cfg_tb.sv was successful.
+# Compile of CommMaster.sv was successful.
+# Compile of CycloneIV.sv was successful.
+# Compile of ESC_interface.sv was successful.
+# Compile of ESCs.sv was successful.
+# Compile of flght_cntrl.sv was successful.
+# Compile of inert_intf.sv was successful.
+# Compile of inertial_integrator.sv was successful with warnings.
+# Compile of QuadCopter.v was successful.
+# Compile of QuadCopter_tb.sv was successful.
+# Compile of rst_synch.sv was successful.
+# Compile of SPI_ADC128S.sv was successful.
+# Compile of SPI_mstr16.sv was successful.
+# Compile of tb_tasks.v failed with 26 errors.
+# Compile of UART.v was successful.
+# Compile of UART_rcv.sv was successful.
+# Compile of UART_tx.v was successful.
+# Compile of UART_wrapper.sv was successful.
+# 21 compiles, 1 failed with 26 errors.
+vsim work.QuadCopter_tb -novopt
+# vsim work.QuadCopter_tb -novopt 
+# Start time: 15:28:34 on Dec 13,2017
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /userspace/k/kmui2/ECE551/project8/work.QuadCopter_tb
+# Loading sv_std.std
+# Loading work.QuadCopter_tb
+# Refreshing /userspace/k/kmui2/ECE551/project8/work.CycloneIV
+# Loading work.CycloneIV
+# Refreshing /userspace/k/kmui2/ECE551/project8/work.ADC128S
+# Loading work.ADC128S
+# Refreshing /userspace/k/kmui2/ECE551/project8/work.SPI_ADC128S
+# Loading work.SPI_ADC128S
+# Refreshing /userspace/k/kmui2/ECE551/project8/work.QuadCopter
+# Loading work.QuadCopter
+# Refreshing /userspace/k/kmui2/ECE551/project8/work.UART_wrapper
+# Loading work.UART_wrapper
+# Refreshing /userspace/k/kmui2/ECE551/project8/work.UART
+# Loading work.UART
+# Refreshing /userspace/k/kmui2/ECE551/project8/work.UART_tx
+# Loading work.UART_tx
+# Refreshing /userspace/k/kmui2/ECE551/project8/work.UART_rcv
+# Loading work.UART_rcv
+# Refreshing /userspace/k/kmui2/ECE551/project8/work.cmd_cfg
+# Loading work.cmd_cfg
+# Refreshing /userspace/k/kmui2/ECE551/project8/work.inert_intf
+# Loading work.inert_intf
+# Refreshing /userspace/k/kmui2/ECE551/project8/work.SPI_mstr16
+# Loading work.SPI_mstr16
+# Refreshing /userspace/k/kmui2/ECE551/project8/work.inertial_integrator
+# Loading work.inertial_integrator
+# Refreshing /userspace/k/kmui2/ECE551/project8/work.flght_cntrl
+# Loading work.flght_cntrl
+# Refreshing /userspace/k/kmui2/ECE551/project8/work.ESCs
+# Loading work.ESCs
+# Refreshing /userspace/k/kmui2/ECE551/project8/work.ESC_interface
+# Loading work.ESC_interface
+# Refreshing /userspace/k/kmui2/ECE551/project8/work.A2D_intf
+# Loading work.A2D_intf
+# Refreshing /userspace/k/kmui2/ECE551/project8/work.rst_synch
+# Loading work.rst_synch
+# Refreshing /userspace/k/kmui2/ECE551/project8/work.CommMaster
+# Loading work.CommMaster
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+add wave -position insertpoint  \
+sim:/QuadCopter_tb/POS_ACK \
+sim:/QuadCopter_tb/REQ_BATT \
+sim:/QuadCopter_tb/SET_PTCH \
+sim:/QuadCopter_tb/SET_ROLL \
+sim:/QuadCopter_tb/SET_YAW \
+sim:/QuadCopter_tb/SET_THRST \
+sim:/QuadCopter_tb/EMER_LAND \
+sim:/QuadCopter_tb/MTRS_OFF \
+sim:/QuadCopter_tb/CALIBRATE \
+sim:/QuadCopter_tb/SS_n \
+sim:/QuadCopter_tb/SCLK \
+sim:/QuadCopter_tb/MOSI \
+sim:/QuadCopter_tb/MISO \
+sim:/QuadCopter_tb/INT \
+sim:/QuadCopter_tb/SS_A2D_n \
+sim:/QuadCopter_tb/SCLK_A2D \
+sim:/QuadCopter_tb/MOSI_A2D \
+sim:/QuadCopter_tb/MISO_A2D \
+sim:/QuadCopter_tb/RX \
+sim:/QuadCopter_tb/TX \
+sim:/QuadCopter_tb/resp \
+sim:/QuadCopter_tb/cmd_sent \
+sim:/QuadCopter_tb/resp_rdy \
+sim:/QuadCopter_tb/frnt_ESC \
+sim:/QuadCopter_tb/back_ESC \
+sim:/QuadCopter_tb/left_ESC \
+sim:/QuadCopter_tb/rght_ESC \
+sim:/QuadCopter_tb/clk \
+sim:/QuadCopter_tb/RST_n \
+sim:/QuadCopter_tb/cmd_to_copter \
+sim:/QuadCopter_tb/data \
+sim:/QuadCopter_tb/send_cmd \
+sim:/QuadCopter_tb/clr_resp_rdy
+run -all
+# Simulation stop requested.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run -all
+# batt: 11000000
+# You passed QuadCopter_tb
+# ** Note: $stop    : /userspace/k/kmui2/ECE551/project8/QuadCopter_tb.sv(116)
+#    Time: 42381930 ns  Iteration: 2  Instance: /QuadCopter_tb
+# Break in Module QuadCopter_tb at /userspace/k/kmui2/ECE551/project8/QuadCopter_tb.sv line 116

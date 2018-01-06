@@ -1,0 +1,54 @@
+#########################################
+# Nate Ciske - ECE 551 - Uart Synthesis #
+#########################################
+
+####### SET UP DESIGN ######
+
+## Load in Designs ##
+read_file -format verilog {./UART.v}
+read_file -format sverilog {./UART_tx.sv}
+read_file -format sverilog {./UART_rcv.sv}
+
+## Define clock ##
+create_clock -name "clk" -period 2 -waveform { 0 1 }  { clk  } 
+set_dont_touch_network [find port clk]
+
+## Setup pointer of inputs that excludes clock ##
+set prim_inputs [remove_from_collection [all_inputs] [find port clk]]
+
+## Set input delay & drive all inputs ## 
+set_input_delay -clock clk .5 [copy_collection $prim_inputs] 
+set_driving_cell -lib_cell AO33D0BWP -pin Z -from_pin A1 -library tcbn40lpbwptc [copy_collection $prim_inputs] 
+
+	# tell it por_n strongly driven so it won't buffer 
+	set_drive 50 [copy_collection $prim_inputs]
+	
+## Set output delay & load on all outputs  
+set_output_delay -clock clk .75 [all_outputs] 
+set_load 0.15 [all_outputs]
+
+## Max transition time is important for Hot-E reasons
+set_max_transition 0.15 [current_design]
+
+## Set wire load model
+set_wire_load_model -name TSMC32K_Lowk_Conservative -library tcbn40lpbwptc
+
+####### RUN DESIGN #######
+## Now actually synthesize 
+compile -map_effort low
+
+## Check out how our design compiled
+report_area
+
+## Max & min timings  
+report_timing -path full -delay max -nworst 3 
+report_timing -path full -delay min -nworst 3
+
+## Smash the hierarchy (design ware component) 
+ungroup -all
+compile -map_effort medium
+check_design
+report_area
+
+#### write out final netlist ####
+write –format verilog UART –output SPI_mstr.vg
